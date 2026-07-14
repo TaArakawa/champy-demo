@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "description": "ポケモンチャンピオンズのレギュレーション・シーズン定義（手動整備）",
+    "verified_at": "2026-07-06",
+    "timezone": "JST",
+    "sources": [
+      "https://gamerch.com/pokemonchampions/971116 (シーズンM-1)",
+      "https://news.pokemon-home.com/ja/page/760.html (シーズンM-2)",
+      "https://gamewith.jp/pokemon-champions/564189 (レギュレーションM-B)",
+      "https://www.famitsu.com/article/202606/78636 (スマホ版・M-B開始)"
+    ]
+  },
+  "regulations": [
+    {
+      "id": "M-A",
+      "start": "2026-04-08",
+      "end": "2026-06-17T10:59",
+      "notes": "ローンチレギュレーション。使用可否の個別リストは未整備(TODO)"
+    },
+    {
+      "id": "M-B",
+      "start": "2026-06-17",
+      "end": "2026-09-02T10:59",
+      "species_count": 319,
+      "forms_count": 1244,
+      "notes": "M-Aから38種追加(ZA新メガ中心)。通常242匹+メガシンカ77匹。data/dist の champions_eligible はこのレギュレーション時点(2026-06-18取得)のスナップショット"
+    }
+  ],
+  "seasons": [
+    {
+      "id": "M-1",
+      "regulation": "M-A",
+      "start": "2026-04-08",
+      "end": "2026-05-13T10:59"
+    },
+    {
+      "id": "M-2",
+      "regulation": "M-A",
+      "start": "2026-05-13",
+      "end": "2026-06-17T10:59"
+    },
+    {
+      "id": "M-3",
+      "regulation": "M-B",
+      "start": "2026-06-17",
+      "end": "2026-07-08T10:59"
+    },
+    {
+      "id": "M-4",
+      "regulation": "M-B",
+      "start": "2026-07-08",
+      "end": "2026-09-02T10:59",
+      "note": "レギュM-BはM-3/M-4の2シーズン構成(出典: game8 776525)。終了日はM-B終了に合わせた推定"
+    }
+  ],
+  "rank_battle_rules": {
+    "total_time_minutes": 20,
+    "player_time_minutes": 7,
+    "move_select_seconds": 45,
+    "team_select_seconds": 90,
+    "notes": "時間切れ(TOD)は引き分けでレート変動なし。マスターボール級から順位戦。出典: gamerch 971116"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "description": "ポケモンチャンピオンズの持ち物マスタ（手動整備・対戦/ダメージ計算に関わるものを優先収載）",
+    "coverage": "partial",
+    "verified_at": "2026-07-06",
+    "sources": [
+      "https://game8.jp/pokemon-champions/775655 (道具・持ち物一覧)",
+      "https://altema.jp/pokemonchampions/itemlist (持ち物一覧・価格)"
+    ],
+    "notes": "confidence: confirmed=攻略サイトで名称・効果を確認済み / standard=カテゴリの存在は確認済みで名称・効果は本家標準と同一と仮定。全量(100種以上)の完全収載とVP価格の網羅はTODO"
+  },
+  "items": [
+    {
+      "name_ja": "こだわりスカーフ",
+      "category": "choice",
+      "effect_ja": "素早さ1.5倍。同じ技しか出せなくなる",
+      "calc": {
+        "stat": "speed",
+        "multiplier": 1.5
+      },
+      "acquisition": "初期入手",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "こだわりハチマキ",
+      "category": "choice",
+      "effect_ja": "攻撃1.5倍。同じ技しか出せなくなる",
+      "calc": {
+        "stat": "attack",
+        "multiplier": 1.5
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "こだわりメガネ",
+      "category": "choice",
+      "effect_ja": "特攻1.5倍。同じ技しか出せなくなる",
+      "calc": {
+        "stat": "sp_attack",
+        "multiplier": 1.5
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "いのちのたま",
+      "category": "power",
+      "effect_ja": "技の威力1.3倍。攻撃するたび最大HPの1/10のダメージ",
+      "calc": {
+        "power_multiplier": 1.3,
+        "recoil_ratio": 0.1
+      },
+      "acquisition": "1,000VP",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "たつじんのおび",
+      "category": "power",
+      "effect_ja": "効果ばつぐんの技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "super_effective"
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "ちからのハチマキ",
+      "category": "power",
+      "effect_ja": "物理技の威力1.1倍",
+      "calc": {
+        "power_multiplier": 1.1,
+        "condition": "physical"
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "ものしりメガネ",
+      "category": "power",
+      "effect_ja": "特殊技の威力1.1倍",
+      "calc": {
+        "power_multiplier": 1.1,
+        "condition": "special"
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "メトロノーム",
+      "category": "power",
+      "effect_ja": "同じ技の連続使用で威力が1回ごとに20%上昇(最大2倍)",
+      "calc": {
+        "power_multiplier_per_use": 0.2,
+        "power_multiplier_max": 2.0
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "きあいのタスキ",
+      "category": "survival",
+      "effect_ja": "HP満タン時、ひんしになるダメージをHP1で耐える(対戦中1回)",
+      "calc": {
+        "sash": true
+      },
+      "acquisition": "初期入手",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "たべのこし",
+      "category": "recovery",
+      "effect_ja": "毎ターン最大HPの1/16回復",
+      "calc": {
+        "heal_ratio_per_turn": 0.0625
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "せんせいのツメ",
+      "category": "utility",
+      "effect_ja": "20%の確率で先制できる",
+      "calc": {
+        "priority_chance": 0.2
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "オボンのみ",
+      "category": "berry_recovery",
+      "effect_ja": "HPが1/2以下になると最大HPの1/4回復",
+      "calc": {
+        "heal_ratio": 0.25,
+        "trigger": "hp<=1/2"
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "オレンのみ",
+      "category": "berry_recovery",
+      "effect_ja": "HPが1/2以下になるとHP10回復",
+      "calc": {
+        "heal_flat": 10,
+        "trigger": "hp<=1/2"
+      },
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "ラムのみ",
+      "category": "berry_status",
+      "effect_ja": "すべての状態異常を回復",
+      "acquisition": "400VP",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "クラボのみ",
+      "category": "berry_status",
+      "effect_ja": "まひを回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "カゴのみ",
+      "category": "berry_status",
+      "effect_ja": "ねむりを回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "モモンのみ",
+      "category": "berry_status",
+      "effect_ja": "どくを回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "チーゴのみ",
+      "category": "berry_status",
+      "effect_ja": "やけどを回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "ナナシのみ",
+      "category": "berry_status",
+      "effect_ja": "こおりを回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "キーのみ",
+      "category": "berry_status",
+      "effect_ja": "こんらんを回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "ヒメリのみ",
+      "category": "berry_status",
+      "effect_ja": "PPが0になった技のPPを10回復",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "シルクのスカーフ",
+      "category": "type_boost",
+      "type_ja": "ノーマル",
+      "effect_ja": "ノーマル技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:ノーマル"
+      },
+      "acquisition": "700VP",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "もくたん",
+      "category": "type_boost",
+      "type_ja": "ほのお",
+      "effect_ja": "ほのお技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:ほのお"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "しんぴのしずく",
+      "category": "type_boost",
+      "type_ja": "みず",
+      "effect_ja": "みず技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:みず"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "じしゃく",
+      "category": "type_boost",
+      "type_ja": "でんき",
+      "effect_ja": "でんき技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:でんき"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "きせきのタネ",
+      "category": "type_boost",
+      "type_ja": "くさ",
+      "effect_ja": "くさ技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:くさ"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "とけないこおり",
+      "category": "type_boost",
+      "type_ja": "こおり",
+      "effect_ja": "こおり技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:こおり"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "くろおび",
+      "category": "type_boost",
+      "type_ja": "かくとう",
+      "effect_ja": "かくとう技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:かくとう"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "どくバリ",
+      "category": "type_boost",
+      "type_ja": "どく",
+      "effect_ja": "どく技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:どく"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "やわらかいすな",
+      "category": "type_boost",
+      "type_ja": "じめん",
+      "effect_ja": "じめん技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:じめん"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "するどいくちばし",
+      "category": "type_boost",
+      "type_ja": "ひこう",
+      "effect_ja": "ひこう技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:ひこう"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "まがったスプーン",
+      "category": "type_boost",
+      "type_ja": "エスパー",
+      "effect_ja": "エスパー技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:エスパー"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ぎんのこな",
+      "category": "type_boost",
+      "type_ja": "むし",
+      "effect_ja": "むし技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:むし"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "かたいいし",
+      "category": "type_boost",
+      "type_ja": "いわ",
+      "effect_ja": "いわ技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:いわ"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "のろいのおふだ",
+      "category": "type_boost",
+      "type_ja": "ゴースト",
+      "effect_ja": "ゴースト技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:ゴースト"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "りゅうのキバ",
+      "category": "type_boost",
+      "type_ja": "ドラゴン",
+      "effect_ja": "ドラゴン技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:ドラゴン"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "くろいメガネ",
+      "category": "type_boost",
+      "type_ja": "あく",
+      "effect_ja": "あく技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:あく"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "メタルコート",
+      "category": "type_boost",
+      "type_ja": "はがね",
+      "effect_ja": "はがね技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:はがね"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "フェアリーフェザー",
+      "category": "type_boost",
+      "type_ja": "フェアリー",
+      "effect_ja": "フェアリー技の威力1.2倍",
+      "calc": {
+        "power_multiplier": 1.2,
+        "condition": "type:フェアリー"
+      },
+      "acquisition": "700VP",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "オッカのみ",
+      "category": "berry_resist",
+      "type_ja": "ほのお",
+      "effect_ja": "効果ばつぐんのほのお技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:ほのお"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "イトケのみ",
+      "category": "berry_resist",
+      "type_ja": "みず",
+      "effect_ja": "効果ばつぐんのみず技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:みず"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ソクノのみ",
+      "category": "berry_resist",
+      "type_ja": "でんき",
+      "effect_ja": "効果ばつぐんのでんき技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:でんき"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "リンドのみ",
+      "category": "berry_resist",
+      "type_ja": "くさ",
+      "effect_ja": "効果ばつぐんのくさ技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:くさ"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ヤチェのみ",
+      "category": "berry_resist",
+      "type_ja": "こおり",
+      "effect_ja": "効果ばつぐんのこおり技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:こおり"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ヨプのみ",
+      "category": "berry_resist",
+      "type_ja": "かくとう",
+      "effect_ja": "効果ばつぐんのかくとう技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:かくとう"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ビアーのみ",
+      "category": "berry_resist",
+      "type_ja": "どく",
+      "effect_ja": "効果ばつぐんのどく技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:どく"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "シュカのみ",
+      "category": "berry_resist",
+      "type_ja": "じめん",
+      "effect_ja": "効果ばつぐんのじめん技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:じめん"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "バコウのみ",
+      "category": "berry_resist",
+      "type_ja": "ひこう",
+      "effect_ja": "効果ばつぐんのひこう技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:ひこう"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ウタンのみ",
+      "category": "berry_resist",
+      "type_ja": "エスパー",
+      "effect_ja": "効果ばつぐんのエスパー技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:エスパー"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "タンガのみ",
+      "category": "berry_resist",
+      "type_ja": "むし",
+      "effect_ja": "効果ばつぐんのむし技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:むし"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ヨロギのみ",
+      "category": "berry_resist",
+      "type_ja": "いわ",
+      "effect_ja": "効果ばつぐんのいわ技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:いわ"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "カシブのみ",
+      "category": "berry_resist",
+      "type_ja": "ゴースト",
+      "effect_ja": "効果ばつぐんのゴースト技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:ゴースト"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ハバンのみ",
+      "category": "berry_resist",
+      "type_ja": "ドラゴン",
+      "effect_ja": "効果ばつぐんのドラゴン技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:ドラゴン"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ナモのみ",
+      "category": "berry_resist",
+      "type_ja": "あく",
+      "effect_ja": "効果ばつぐんのあく技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:あく"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "リリバのみ",
+      "category": "berry_resist",
+      "type_ja": "はがね",
+      "effect_ja": "効果ばつぐんのはがね技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:はがね"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ロゼルのみ",
+      "category": "berry_resist",
+      "type_ja": "フェアリー",
+      "effect_ja": "効果ばつぐんのフェアリー技のダメージを半減(1回)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "super_effective type:フェアリー"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ホズのみ",
+      "category": "berry_resist",
+      "type_ja": "ノーマル",
+      "effect_ja": "ノーマル技のダメージを半減(1回・相性不問)",
+      "calc": {
+        "damage_multiplier": 0.5,
+        "condition": "type:ノーマル"
+      },
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "メガストーン(各種)",
+      "category": "mega_stone",
+      "effect_ja": "対応ポケモンをメガシンカさせる。ポケモンごとに専用ストーンが存在",
+      "acquisition": "2,000VP(シーズン報酬で割引あり)",
+      "confidence": "confirmed"
+    },
+    {
+      "name_ja": "かいがらのすず",
+      "category": "recovery",
+      "effect_ja": "与えたダメージの1/8だけHPを回復する",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "きあいのハチマキ",
+      "category": "survival",
+      "effect_ja": "10%の確率で、ひんしになるダメージをHP1で耐える",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "しろいハーブ",
+      "category": "utility",
+      "effect_ja": "下がった能力変化を1回だけ元に戻す",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "メンタルハーブ",
+      "category": "utility",
+      "effect_ja": "メロメロ・アンコール等の行動制限を1回だけ解除する",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "ひかりのねんど",
+      "category": "utility",
+      "effect_ja": "リフレクター・ひかりのかべ等の効果ターンを8ターンに延ばす",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "あついいわ",
+      "category": "utility",
+      "effect_ja": "にほんばれ(晴れ)の効果ターンを8ターンに延ばす",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "さらさらいわ",
+      "category": "utility",
+      "effect_ja": "すなあらしの効果ターンを8ターンに延ばす",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "つめたいいわ",
+      "category": "utility",
+      "effect_ja": "あられ/ゆきの効果ターンを8ターンに延ばす",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "しめったいわ",
+      "category": "utility",
+      "effect_ja": "あまごい(雨)の効果ターンを8ターンに延ばす",
+      "confidence": "standard"
+    },
+    {
+      "name_ja": "エレキシード",
+      "category": "utility",
+      "effect_ja": "エレキフィールド中に防御が1段階上がる(1回)",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "グラスシード",
+      "category": "utility",
+      "effect_ja": "グラスフィールド中に防御が1段階上がる(1回)",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "サイコシード",
+      "category": "utility",
+      "effect_ja": "サイコフィールド中に特防が1段階上がる(1回)",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "ミストシード",
+      "category": "utility",
+      "effect_ja": "ミストフィールド中に特防が1段階上がる(1回)",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "とつげきチョッキ",
+      "category": "utility",
+      "effect_ja": "特防が1.5倍になるが、変化技が出せなくなる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "しんかのきせき",
+      "category": "utility",
+      "effect_ja": "まだ進化を残すポケモンの防御・特防が1.5倍になる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "ゴツゴツメット",
+      "category": "utility",
+      "effect_ja": "接触技を受けると、相手に最大HPの1/6のダメージを与える",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "あつぞこブーツ",
+      "category": "utility",
+      "effect_ja": "ステルスロック等の設置技の影響を受けない",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "くろいヘドロ",
+      "category": "recovery",
+      "effect_ja": "どくタイプは毎ターンHP回復、それ以外は毎ターンダメージ",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "おんみつマント",
+      "category": "utility",
+      "effect_ja": "相手の技の追加効果を受けない",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "ふうせん",
+      "category": "utility",
+      "effect_ja": "地面タイプの技を受けない。ダメージを受けると割れる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "ブーストエナジー",
+      "category": "utility",
+      "effect_ja": "パラドックスポケモンの最も高い能力を1段階分引き上げる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "だっしゅつパック",
+      "category": "utility",
+      "effect_ja": "能力が下がると、控えのポケモンと入れ替わる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "だっしゅつボタン",
+      "category": "utility",
+      "effect_ja": "攻撃を受けると、控えのポケモンと入れ替わる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "レッドカード",
+      "category": "utility",
+      "effect_ja": "攻撃を受けると、相手を強制的に交代させる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "のどスプレー",
+      "category": "utility",
+      "effect_ja": "音技を使うと特攻が1段階上がる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "ルームサービス",
+      "category": "utility",
+      "effect_ja": "トリックルーム中、素早さが1段階下がる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "パワフルハーブ",
+      "category": "utility",
+      "effect_ja": "ためが必要な技を、1回だけためずにすぐ出せる",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    },
+    {
+      "name_ja": "ミラーハーブ",
+      "category": "utility",
+      "effect_ja": "相手の能力上昇をコピーする(1回)",
+      "confidence": "standard",
+      "unusable_regs": [
+        "M-B"
+      ]
+    }
+  ]
+}

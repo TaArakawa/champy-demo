@@ -1,0 +1,1682 @@
+{
+  "meta": {
+    "variant_min_rate": 15.0,
+    "note": "どうぐ採用率から算出したメガ想定(仮想敵)。日次バッチ(daily_usage_update.py)で再生成。",
+    "source": [
+      "pokemon.json",
+      "item_usage.json",
+      "item_usage_double.json"
+    ],
+    "rule_desc": "メガするか=トップどうぐがメガ石か / 想定形=トップ石+採用率>=variant_min_rateの他石"
+  },
+  "single": {
+    "3": {
+      "name": "フシギバナ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10033",
+          "form_name": "メガフシギバナ",
+          "stone": "フシギバナイト",
+          "rate": 84.7
+        }
+      ]
+    },
+    "6": {
+      "name": "リザードン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10035",
+          "form_name": "メガリザードンＹ",
+          "stone": "リザードナイトＹ",
+          "rate": 77.4
+        },
+        {
+          "icon": "10034",
+          "form_name": "メガリザードンＸ",
+          "stone": "リザードナイトＸ",
+          "rate": 21.1
+        }
+      ]
+    },
+    "9": {
+      "name": "カメックス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10036",
+          "form_name": "メガカメックス",
+          "stone": "カメックスナイト",
+          "rate": 91.9
+        }
+      ]
+    },
+    "15": {
+      "name": "スピアー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10090",
+          "form_name": "メガスピアー",
+          "stone": "スピアナイト",
+          "rate": 98.2
+        }
+      ]
+    },
+    "18": {
+      "name": "ピジョット",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10073",
+          "form_name": "メガピジョット",
+          "stone": "ピジョットナイト",
+          "rate": 97.9
+        }
+      ]
+    },
+    "26": {
+      "name": "ライチュウ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10305",
+          "form_name": "メガライチュウY",
+          "stone": "ライチュウナイトY",
+          "rate": 96.4
+        }
+      ]
+    },
+    "36": {
+      "name": "ピクシー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10278",
+          "form_name": "メガピクシー",
+          "stone": "ピクシナイト",
+          "rate": 71.1
+        }
+      ]
+    },
+    "65": {
+      "name": "フーディン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10037",
+          "form_name": "メガフーディン",
+          "stone": "フーディナイト",
+          "rate": 72.9
+        }
+      ]
+    },
+    "71": {
+      "name": "ウツボット",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10279",
+          "form_name": "メガウツボット",
+          "stone": "ウツボットナイト",
+          "rate": 93.4
+        }
+      ]
+    },
+    "80": {
+      "name": "ヤドラン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10071",
+          "form_name": "メガヤドラン",
+          "stone": "ヤドランナイト",
+          "rate": 61.8
+        }
+      ]
+    },
+    "94": {
+      "name": "ゲンガー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10038",
+          "form_name": "メガゲンガー",
+          "stone": "ゲンガナイト",
+          "rate": 58.6
+        }
+      ]
+    },
+    "115": {
+      "name": "ガルーラ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10039",
+          "form_name": "メガガルーラ",
+          "stone": "ガルーラナイト",
+          "rate": 90.1
+        }
+      ]
+    },
+    "121": {
+      "name": "スターミー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10280",
+          "form_name": "メガスターミー",
+          "stone": "スターミナイト",
+          "rate": 94.9
+        }
+      ]
+    },
+    "127": {
+      "name": "カイロス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10040",
+          "form_name": "メガカイロス",
+          "stone": "カイロスナイト",
+          "rate": 95.6
+        }
+      ]
+    },
+    "130": {
+      "name": "ギャラドス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10041",
+          "form_name": "メガギャラドス",
+          "stone": "ギャラドスナイト",
+          "rate": 47.6
+        }
+      ]
+    },
+    "142": {
+      "name": "プテラ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10042",
+          "form_name": "メガプテラ",
+          "stone": "プテラナイト",
+          "rate": 69.7
+        }
+      ]
+    },
+    "149": {
+      "name": "カイリュー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10281",
+          "form_name": "メガカイリュー",
+          "stone": "カイリュナイト",
+          "rate": 65.1
+        }
+      ]
+    },
+    "150": {
+      "name": "ミュウツー",
+      "mega": false,
+      "forms": []
+    },
+    "154": {
+      "name": "メガニウム",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10282",
+          "form_name": "メガメガニウム",
+          "stone": "メガニウムナイト",
+          "rate": 99.0
+        }
+      ]
+    },
+    "160": {
+      "name": "オーダイル",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10283",
+          "form_name": "メガオーダイル",
+          "stone": "オーダイルナイト",
+          "rate": 56.9
+        }
+      ]
+    },
+    "181": {
+      "name": "デンリュウ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10045",
+          "form_name": "メガデンリュウ",
+          "stone": "デンリュウナイト",
+          "rate": 79.2
+        }
+      ]
+    },
+    "208": {
+      "name": "ハガネール",
+      "mega": false,
+      "forms": []
+    },
+    "212": {
+      "name": "ハッサム",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10046",
+          "form_name": "メガハッサム",
+          "stone": "ハッサムナイト",
+          "rate": 62.1
+        }
+      ]
+    },
+    "214": {
+      "name": "ヘラクロス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10047",
+          "form_name": "メガヘラクロス",
+          "stone": "ヘラクロスナイト",
+          "rate": 91.7
+        }
+      ]
+    },
+    "227": {
+      "name": "エアームド",
+      "mega": false,
+      "forms": []
+    },
+    "229": {
+      "name": "ヘルガー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10048",
+          "form_name": "メガヘルガー",
+          "stone": "ヘルガナイト",
+          "rate": 45.6
+        }
+      ]
+    },
+    "248": {
+      "name": "バンギラス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10049",
+          "form_name": "メガバンギラス",
+          "stone": "バンギラスナイト",
+          "rate": 45.8
+        }
+      ]
+    },
+    "254": {
+      "name": "ジュカイン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10065",
+          "form_name": "メガジュカイン",
+          "stone": "ジュカインナイト",
+          "rate": 78.4
+        }
+      ]
+    },
+    "257": {
+      "name": "バシャーモ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10050",
+          "form_name": "メガバシャーモ",
+          "stone": "バシャーモナイト",
+          "rate": 76.5
+        }
+      ]
+    },
+    "260": {
+      "name": "ラグラージ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10064",
+          "form_name": "メガラグラージ",
+          "stone": "ラグラージナイト",
+          "rate": 74.4
+        }
+      ]
+    },
+    "282": {
+      "name": "サーナイト",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10051",
+          "form_name": "メガサーナイト",
+          "stone": "サーナイトナイト",
+          "rate": 56.7
+        }
+      ]
+    },
+    "302": {
+      "name": "ヤミラミ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10066",
+          "form_name": "メガヤミラミ",
+          "stone": "ヤミラミナイト",
+          "rate": 32.2
+        }
+      ]
+    },
+    "303": {
+      "name": "クチート",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10052",
+          "form_name": "メガクチート",
+          "stone": "クチートナイト",
+          "rate": 99.6
+        }
+      ]
+    },
+    "306": {
+      "name": "ボスゴドラ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10053",
+          "form_name": "メガボスゴドラ",
+          "stone": "ボスゴドラナイト",
+          "rate": 75.8
+        }
+      ]
+    },
+    "308": {
+      "name": "チャーレム",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10054",
+          "form_name": "メガチャーレム",
+          "stone": "チャーレムナイト",
+          "rate": 74.0
+        }
+      ]
+    },
+    "310": {
+      "name": "ライボルト",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10055",
+          "form_name": "メガライボルト",
+          "stone": "ライボルトナイト",
+          "rate": 79.5
+        }
+      ]
+    },
+    "319": {
+      "name": "サメハダー",
+      "mega": false,
+      "forms": []
+    },
+    "323": {
+      "name": "バクーダ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10087",
+          "form_name": "メガバクーダ",
+          "stone": "バクーダナイト",
+          "rate": 84.6
+        }
+      ]
+    },
+    "334": {
+      "name": "チルタリス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10067",
+          "form_name": "メガチルタリス",
+          "stone": "チルタリスナイト",
+          "rate": 93.8
+        }
+      ]
+    },
+    "354": {
+      "name": "ジュペッタ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10056",
+          "form_name": "メガジュペッタ",
+          "stone": "ジュペッタナイト",
+          "rate": 98.6
+        }
+      ]
+    },
+    "358": {
+      "name": "チリーン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10306",
+          "form_name": "メガチリーン",
+          "stone": "チリーンナイト",
+          "rate": 91.4
+        }
+      ]
+    },
+    "359": {
+      "name": "アブソル",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10057",
+          "form_name": "メガアブソル",
+          "stone": "アブソルナイト",
+          "rate": 67.6
+        }
+      ]
+    },
+    "362": {
+      "name": "オニゴーリ",
+      "mega": false,
+      "forms": []
+    },
+    "373": {
+      "name": "ボーマンダ",
+      "mega": false,
+      "forms": []
+    },
+    "376": {
+      "name": "メタグロス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10076",
+          "form_name": "メガメタグロス",
+          "stone": "メタグロスナイト",
+          "rate": 97.0
+        }
+      ]
+    },
+    "380": {
+      "name": "ラティアス",
+      "mega": false,
+      "forms": []
+    },
+    "381": {
+      "name": "ラティオス",
+      "mega": false,
+      "forms": []
+    },
+    "384": {
+      "name": "レックウザ",
+      "mega": false,
+      "forms": []
+    },
+    "398": {
+      "name": "ムクホーク",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10308",
+          "form_name": "メガムクホーク",
+          "stone": "ムクホークナイト",
+          "rate": 95.2
+        }
+      ]
+    },
+    "428": {
+      "name": "ミミロップ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10088",
+          "form_name": "メガミミロップ",
+          "stone": "ミミロップナイト",
+          "rate": 97.2
+        }
+      ]
+    },
+    "445": {
+      "name": "ガブリアス",
+      "mega": false,
+      "forms": []
+    },
+    "448": {
+      "name": "ルカリオ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10059",
+          "form_name": "メガルカリオ",
+          "stone": "ルカリオナイト",
+          "rate": 91.3
+        }
+      ]
+    },
+    "460": {
+      "name": "ユキノオー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10060",
+          "form_name": "メガユキノオー",
+          "stone": "ユキノオナイト",
+          "rate": 53.4
+        }
+      ]
+    },
+    "475": {
+      "name": "エルレイド",
+      "mega": false,
+      "forms": []
+    },
+    "478": {
+      "name": "ユキメノコ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10285",
+          "form_name": "メガユキメノコ",
+          "stone": "ユキメノコナイト",
+          "rate": 95.5
+        }
+      ]
+    },
+    "485": {
+      "name": "ヒードラン",
+      "mega": false,
+      "forms": []
+    },
+    "491": {
+      "name": "ダークライ",
+      "mega": false,
+      "forms": []
+    },
+    "500": {
+      "name": "エンブオー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10286",
+          "form_name": "メガエンブオー",
+          "stone": "エンブオナイト",
+          "rate": 72.8
+        }
+      ]
+    },
+    "530": {
+      "name": "ドリュウズ",
+      "mega": false,
+      "forms": []
+    },
+    "531": {
+      "name": "タブンネ",
+      "mega": false,
+      "forms": []
+    },
+    "545": {
+      "name": "ペンドラー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10288",
+          "form_name": "メガペンドラー",
+          "stone": "ペンドラナイト",
+          "rate": 31.5
+        }
+      ]
+    },
+    "560": {
+      "name": "ズルズキン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10289",
+          "form_name": "メガズルズキン",
+          "stone": "ズルズキナイト",
+          "rate": 96.1
+        }
+      ]
+    },
+    "604": {
+      "name": "シビルドン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10290",
+          "form_name": "メガシビルドン",
+          "stone": "シビルドナイト",
+          "rate": 94.7
+        }
+      ]
+    },
+    "609": {
+      "name": "シャンデラ",
+      "mega": false,
+      "forms": []
+    },
+    "623": {
+      "name": "ゴルーグ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10313",
+          "form_name": "メガゴルーグ",
+          "stone": "ゴルーグナイト",
+          "rate": 48.0
+        }
+      ]
+    },
+    "652": {
+      "name": "ブリガロン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10292",
+          "form_name": "メガブリガロン",
+          "stone": "ブリガロナイト",
+          "rate": 78.1
+        }
+      ]
+    },
+    "655": {
+      "name": "マフォクシー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10293",
+          "form_name": "メガマフォクシー",
+          "stone": "マフォクシナイト",
+          "rate": 98.6
+        }
+      ]
+    },
+    "658": {
+      "name": "ゲッコウガ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10294",
+          "form_name": "メガゲッコウガ",
+          "stone": "ゲッコウガナイト",
+          "rate": 40.7
+        }
+      ]
+    },
+    "687": {
+      "name": "カラマネロ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10297",
+          "form_name": "メガカラマネロ",
+          "stone": "カラマネナイト",
+          "rate": 55.7
+        }
+      ]
+    },
+    "689": {
+      "name": "ガメノデス",
+      "mega": false,
+      "forms": []
+    },
+    "691": {
+      "name": "ドラミドロ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10299",
+          "form_name": "メガドラミドロ",
+          "stone": "ドラミドナイト",
+          "rate": 98.4
+        }
+      ]
+    },
+    "701": {
+      "name": "ルチャブル",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10300",
+          "form_name": "メガルチャブル",
+          "stone": "ルチャブルナイト",
+          "rate": 42.4
+        }
+      ]
+    },
+    "719": {
+      "name": "ディアンシー",
+      "mega": false,
+      "forms": []
+    },
+    "740": {
+      "name": "ケケンカニ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10315",
+          "form_name": "メガケケンカニ",
+          "stone": "ケケンカニナイト",
+          "rate": 91.9
+        }
+      ]
+    },
+    "768": {
+      "name": "グソクムシャ",
+      "mega": false,
+      "forms": []
+    },
+    "780": {
+      "name": "ジジーロン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10302",
+          "form_name": "メガジジーロン",
+          "stone": "ジジーロナイト",
+          "rate": 58.6
+        }
+      ]
+    },
+    "801": {
+      "name": "マギアナ",
+      "mega": false,
+      "forms": []
+    },
+    "807": {
+      "name": "ゼラオラ",
+      "mega": false,
+      "forms": []
+    },
+    "870": {
+      "name": "タイレーツ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10303",
+          "form_name": "メガタイレーツ",
+          "stone": "タイレーツナイト",
+          "rate": 91.2
+        }
+      ]
+    },
+    "952": {
+      "name": "スコヴィラン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10320",
+          "form_name": "メガスコヴィラン",
+          "stone": "スコヴィラナイト",
+          "rate": 82.3
+        }
+      ]
+    },
+    "970": {
+      "name": "キラフロル",
+      "mega": false,
+      "forms": []
+    },
+    "998": {
+      "name": "セグレイブ",
+      "mega": false,
+      "forms": []
+    }
+  },
+  "double": {
+    "3": {
+      "name": "フシギバナ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10033",
+          "form_name": "メガフシギバナ",
+          "stone": "フシギバナイト",
+          "rate": 38.3
+        }
+      ]
+    },
+    "6": {
+      "name": "リザードン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10035",
+          "form_name": "メガリザードンＹ",
+          "stone": "リザードナイトＹ",
+          "rate": 96.0
+        }
+      ]
+    },
+    "9": {
+      "name": "カメックス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10036",
+          "form_name": "メガカメックス",
+          "stone": "カメックスナイト",
+          "rate": 91.9
+        }
+      ]
+    },
+    "15": {
+      "name": "スピアー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10090",
+          "form_name": "メガスピアー",
+          "stone": "スピアナイト",
+          "rate": 94.9
+        }
+      ]
+    },
+    "18": {
+      "name": "ピジョット",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10073",
+          "form_name": "メガピジョット",
+          "stone": "ピジョットナイト",
+          "rate": 95.7
+        }
+      ]
+    },
+    "26": {
+      "name": "ライチュウ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10305",
+          "form_name": "メガライチュウY",
+          "stone": "ライチュウナイトY",
+          "rate": 75.0
+        }
+      ]
+    },
+    "36": {
+      "name": "ピクシー",
+      "mega": false,
+      "forms": []
+    },
+    "65": {
+      "name": "フーディン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10037",
+          "form_name": "メガフーディン",
+          "stone": "フーディナイト",
+          "rate": 44.3
+        }
+      ]
+    },
+    "71": {
+      "name": "ウツボット",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10279",
+          "form_name": "メガウツボット",
+          "stone": "ウツボットナイト",
+          "rate": 70.1
+        }
+      ]
+    },
+    "80": {
+      "name": "ヤドラン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10071",
+          "form_name": "メガヤドラン",
+          "stone": "ヤドランナイト",
+          "rate": 54.3
+        }
+      ]
+    },
+    "94": {
+      "name": "ゲンガー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10038",
+          "form_name": "メガゲンガー",
+          "stone": "ゲンガナイト",
+          "rate": 74.3
+        }
+      ]
+    },
+    "115": {
+      "name": "ガルーラ",
+      "mega": false,
+      "forms": []
+    },
+    "121": {
+      "name": "スターミー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10280",
+          "form_name": "メガスターミー",
+          "stone": "スターミナイト",
+          "rate": 86.8
+        }
+      ]
+    },
+    "127": {
+      "name": "カイロス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10040",
+          "form_name": "メガカイロス",
+          "stone": "カイロスナイト",
+          "rate": 94.9
+        }
+      ]
+    },
+    "130": {
+      "name": "ギャラドス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10041",
+          "form_name": "メガギャラドス",
+          "stone": "ギャラドスナイト",
+          "rate": 40.8
+        }
+      ]
+    },
+    "142": {
+      "name": "プテラ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10042",
+          "form_name": "メガプテラ",
+          "stone": "プテラナイト",
+          "rate": 50.1
+        }
+      ]
+    },
+    "149": {
+      "name": "カイリュー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10281",
+          "form_name": "メガカイリュー",
+          "stone": "カイリュナイト",
+          "rate": 64.5
+        }
+      ]
+    },
+    "150": {
+      "name": "ミュウツー",
+      "mega": false,
+      "forms": []
+    },
+    "154": {
+      "name": "メガニウム",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10282",
+          "form_name": "メガメガニウム",
+          "stone": "メガニウムナイト",
+          "rate": 97.8
+        }
+      ]
+    },
+    "160": {
+      "name": "オーダイル",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10283",
+          "form_name": "メガオーダイル",
+          "stone": "オーダイルナイト",
+          "rate": 62.0
+        }
+      ]
+    },
+    "181": {
+      "name": "デンリュウ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10045",
+          "form_name": "メガデンリュウ",
+          "stone": "デンリュウナイト",
+          "rate": 90.1
+        }
+      ]
+    },
+    "208": {
+      "name": "ハガネール",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10072",
+          "form_name": "メガハガネール",
+          "stone": "ハガネールナイト",
+          "rate": 69.9
+        }
+      ]
+    },
+    "212": {
+      "name": "ハッサム",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10046",
+          "form_name": "メガハッサム",
+          "stone": "ハッサムナイト",
+          "rate": 49.4
+        }
+      ]
+    },
+    "214": {
+      "name": "ヘラクロス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10047",
+          "form_name": "メガヘラクロス",
+          "stone": "ヘラクロスナイト",
+          "rate": 87.2
+        }
+      ]
+    },
+    "227": {
+      "name": "エアームド",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10284",
+          "form_name": "メガエアームド",
+          "stone": "エアームドナイト",
+          "rate": 73.6
+        }
+      ]
+    },
+    "229": {
+      "name": "ヘルガー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10048",
+          "form_name": "メガヘルガー",
+          "stone": "ヘルガナイト",
+          "rate": 76.4
+        }
+      ]
+    },
+    "248": {
+      "name": "バンギラス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10049",
+          "form_name": "メガバンギラス",
+          "stone": "バンギラスナイト",
+          "rate": 65.2
+        }
+      ]
+    },
+    "254": {
+      "name": "ジュカイン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10065",
+          "form_name": "メガジュカイン",
+          "stone": "ジュカインナイト",
+          "rate": 95.5
+        }
+      ]
+    },
+    "257": {
+      "name": "バシャーモ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10050",
+          "form_name": "メガバシャーモ",
+          "stone": "バシャーモナイト",
+          "rate": 81.0
+        }
+      ]
+    },
+    "260": {
+      "name": "ラグラージ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10064",
+          "form_name": "メガラグラージ",
+          "stone": "ラグラージナイト",
+          "rate": 97.3
+        }
+      ]
+    },
+    "282": {
+      "name": "サーナイト",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10051",
+          "form_name": "メガサーナイト",
+          "stone": "サーナイトナイト",
+          "rate": 82.7
+        }
+      ]
+    },
+    "302": {
+      "name": "ヤミラミ",
+      "mega": false,
+      "forms": []
+    },
+    "303": {
+      "name": "クチート",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10052",
+          "form_name": "メガクチート",
+          "stone": "クチートナイト",
+          "rate": 99.6
+        }
+      ]
+    },
+    "306": {
+      "name": "ボスゴドラ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10053",
+          "form_name": "メガボスゴドラ",
+          "stone": "ボスゴドラナイト",
+          "rate": 91.9
+        }
+      ]
+    },
+    "308": {
+      "name": "チャーレム",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10054",
+          "form_name": "メガチャーレム",
+          "stone": "チャーレムナイト",
+          "rate": 42.0
+        }
+      ]
+    },
+    "310": {
+      "name": "ライボルト",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10055",
+          "form_name": "メガライボルト",
+          "stone": "ライボルトナイト",
+          "rate": 59.7
+        }
+      ]
+    },
+    "319": {
+      "name": "サメハダー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10070",
+          "form_name": "メガサメハダー",
+          "stone": "サメハダナイト",
+          "rate": 65.6
+        }
+      ]
+    },
+    "323": {
+      "name": "バクーダ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10087",
+          "form_name": "メガバクーダ",
+          "stone": "バクーダナイト",
+          "rate": 95.6
+        }
+      ]
+    },
+    "334": {
+      "name": "チルタリス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10067",
+          "form_name": "メガチルタリス",
+          "stone": "チルタリスナイト",
+          "rate": 58.2
+        }
+      ]
+    },
+    "354": {
+      "name": "ジュペッタ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10056",
+          "form_name": "メガジュペッタ",
+          "stone": "ジュペッタナイト",
+          "rate": 93.2
+        }
+      ]
+    },
+    "358": {
+      "name": "チリーン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10306",
+          "form_name": "メガチリーン",
+          "stone": "チリーンナイト",
+          "rate": 89.8
+        }
+      ]
+    },
+    "359": {
+      "name": "アブソル",
+      "mega": false,
+      "forms": []
+    },
+    "362": {
+      "name": "オニゴーリ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10074",
+          "form_name": "メガオニゴーリ",
+          "stone": "オニゴーリナイト",
+          "rate": 93.5
+        }
+      ]
+    },
+    "373": {
+      "name": "ボーマンダ",
+      "mega": false,
+      "forms": []
+    },
+    "376": {
+      "name": "メタグロス",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10076",
+          "form_name": "メガメタグロス",
+          "stone": "メタグロスナイト",
+          "rate": 92.3
+        }
+      ]
+    },
+    "380": {
+      "name": "ラティアス",
+      "mega": false,
+      "forms": []
+    },
+    "381": {
+      "name": "ラティオス",
+      "mega": false,
+      "forms": []
+    },
+    "384": {
+      "name": "レックウザ",
+      "mega": false,
+      "forms": []
+    },
+    "398": {
+      "name": "ムクホーク",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10308",
+          "form_name": "メガムクホーク",
+          "stone": "ムクホークナイト",
+          "rate": 82.4
+        }
+      ]
+    },
+    "428": {
+      "name": "ミミロップ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10088",
+          "form_name": "メガミミロップ",
+          "stone": "ミミロップナイト",
+          "rate": 96.5
+        }
+      ]
+    },
+    "445": {
+      "name": "ガブリアス",
+      "mega": false,
+      "forms": []
+    },
+    "448": {
+      "name": "ルカリオ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10059",
+          "form_name": "メガルカリオ",
+          "stone": "ルカリオナイト",
+          "rate": 49.0
+        }
+      ]
+    },
+    "460": {
+      "name": "ユキノオー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10060",
+          "form_name": "メガユキノオー",
+          "stone": "ユキノオナイト",
+          "rate": 75.8
+        }
+      ]
+    },
+    "475": {
+      "name": "エルレイド",
+      "mega": false,
+      "forms": []
+    },
+    "478": {
+      "name": "ユキメノコ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10285",
+          "form_name": "メガユキメノコ",
+          "stone": "ユキメノコナイト",
+          "rate": 98.8
+        }
+      ]
+    },
+    "485": {
+      "name": "ヒードラン",
+      "mega": false,
+      "forms": []
+    },
+    "491": {
+      "name": "ダークライ",
+      "mega": false,
+      "forms": []
+    },
+    "500": {
+      "name": "エンブオー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10286",
+          "form_name": "メガエンブオー",
+          "stone": "エンブオナイト",
+          "rate": 65.1
+        }
+      ]
+    },
+    "530": {
+      "name": "ドリュウズ",
+      "mega": false,
+      "forms": []
+    },
+    "531": {
+      "name": "タブンネ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10069",
+          "form_name": "メガタブンネ",
+          "stone": "タブンネナイト",
+          "rate": 50.3
+        }
+      ]
+    },
+    "545": {
+      "name": "ペンドラー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10288",
+          "form_name": "メガペンドラー",
+          "stone": "ペンドラナイト",
+          "rate": 72.6
+        }
+      ]
+    },
+    "560": {
+      "name": "ズルズキン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10289",
+          "form_name": "メガズルズキン",
+          "stone": "ズルズキナイト",
+          "rate": 84.1
+        }
+      ]
+    },
+    "604": {
+      "name": "シビルドン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10290",
+          "form_name": "メガシビルドン",
+          "stone": "シビルドナイト",
+          "rate": 95.7
+        }
+      ]
+    },
+    "609": {
+      "name": "シャンデラ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10291",
+          "form_name": "メガシャンデラ",
+          "stone": "シャンデラナイト",
+          "rate": 47.8
+        }
+      ]
+    },
+    "623": {
+      "name": "ゴルーグ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10313",
+          "form_name": "メガゴルーグ",
+          "stone": "ゴルーグナイト",
+          "rate": 85.7
+        }
+      ]
+    },
+    "652": {
+      "name": "ブリガロン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10292",
+          "form_name": "メガブリガロン",
+          "stone": "ブリガロナイト",
+          "rate": 79.9
+        }
+      ]
+    },
+    "655": {
+      "name": "マフォクシー",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10293",
+          "form_name": "メガマフォクシー",
+          "stone": "マフォクシナイト",
+          "rate": 97.7
+        }
+      ]
+    },
+    "658": {
+      "name": "ゲッコウガ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10294",
+          "form_name": "メガゲッコウガ",
+          "stone": "ゲッコウガナイト",
+          "rate": 56.1
+        }
+      ]
+    },
+    "687": {
+      "name": "カラマネロ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10297",
+          "form_name": "メガカラマネロ",
+          "stone": "カラマネナイト",
+          "rate": 73.4
+        }
+      ]
+    },
+    "689": {
+      "name": "ガメノデス",
+      "mega": false,
+      "forms": []
+    },
+    "691": {
+      "name": "ドラミドロ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10299",
+          "form_name": "メガドラミドロ",
+          "stone": "ドラミドナイト",
+          "rate": 86.1
+        }
+      ]
+    },
+    "701": {
+      "name": "ルチャブル",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10300",
+          "form_name": "メガルチャブル",
+          "stone": "ルチャブルナイト",
+          "rate": 83.0
+        }
+      ]
+    },
+    "719": {
+      "name": "ディアンシー",
+      "mega": false,
+      "forms": []
+    },
+    "740": {
+      "name": "ケケンカニ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10315",
+          "form_name": "メガケケンカニ",
+          "stone": "ケケンカニナイト",
+          "rate": 92.9
+        }
+      ]
+    },
+    "768": {
+      "name": "グソクムシャ",
+      "mega": false,
+      "forms": []
+    },
+    "780": {
+      "name": "ジジーロン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10302",
+          "form_name": "メガジジーロン",
+          "stone": "ジジーロナイト",
+          "rate": 70.7
+        }
+      ]
+    },
+    "801": {
+      "name": "マギアナ",
+      "mega": false,
+      "forms": []
+    },
+    "807": {
+      "name": "ゼラオラ",
+      "mega": false,
+      "forms": []
+    },
+    "870": {
+      "name": "タイレーツ",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10303",
+          "form_name": "メガタイレーツ",
+          "stone": "タイレーツナイト",
+          "rate": 94.3
+        }
+      ]
+    },
+    "952": {
+      "name": "スコヴィラン",
+      "mega": true,
+      "forms": [
+        {
+          "icon": "10320",
+          "form_name": "メガスコヴィラン",
+          "stone": "スコヴィラナイト",
+          "rate": 94.6
+        }
+      ]
+    },
+    "970": {
+      "name": "キラフロル",
+      "mega": false,
+      "forms": []
+    },
+    "998": {
+      "name": "セグレイブ",
+      "mega": false,
+      "forms": []
+    }
+  }
+}

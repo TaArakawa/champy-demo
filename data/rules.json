@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "description": "ポケモンチャンピオンズの対戦システム定数・計算式（手動整備）",
+    "verified_at": "2026-07-06",
+    "sources": [
+      "https://damekei.com/formula (実数値・ダメージ計算式。実機検証済みと記載)",
+      "https://gamewith.jp/pokemon-champions/546461 (能力ポイントの振り方)",
+      "https://www.pokesuku.com/champions/tools/stats-calc (上限・性格補正)",
+      "https://game.watch.impress.co.jp/docs/preview/2096101.html (個体値廃止・先行体験)"
+    ]
+  },
+  "level": 50,
+  "iv": {
+    "abolished": true,
+    "fixed_equivalent": 31,
+    "note": "個体値は廃止。全ポケモン・全ステータスが31(6V)相当として計算される"
+  },
+  "ability_points": {
+    "name_ja": "能力ポイント",
+    "total_max": 66,
+    "per_stat_max": 32,
+    "point_to_stat": 1,
+    "vp_cost_per_point": 5,
+    "free_reallocation": true,
+    "note": "1ポイント=実数値+1(性格補正の内側で加算)。下げるのはVP不要、上げ直しはVP消費。SVの252振り=Championsの32振りで最終実数値が一致"
+  },
+  "nature": {
+    "up_multiplier": 1.1,
+    "down_multiplier": 0.9,
+    "neutral_multiplier": 1.0,
+    "freely_changeable": true
+  },
+  "stat_formulas": {
+    "hp": {
+      "formula": "floor((base*2 + 31) * 50 / 100) + 50 + 10 + points",
+      "simplified": "base + 75 + points"
+    },
+    "non_hp": {
+      "formula": "floor((floor((base*2 + 31) * 50 / 100) + 5 + points) * nature)",
+      "simplified": "floor((base + 20 + points) * nature)"
+    }
+  },
+  "damage_formula": {
+    "base": "floor(floor(floor(22 * power * A / D) / 50) + 2)",
+    "level_term_note": "先頭項 floor(2*Lv/5+2) はLv50固定のため常に22",
+    "structure_note": "基本構造はSV(第9世代)と同一。乱数(0.85〜1.00)・タイプ一致・相性・急所などの補正を順次適用",
+    "todo": "急所倍率・各補正の適用順序はChampions実機での個別検証が未了"
+  },
+  "gimmicks": {
+    "device": "ゼンブイリング",
+    "available": [
+      "メガシンカ"
+    ],
+    "planned_or_indicated": [
+      "Zワザ",
+      "テラスタル",
+      "ダイマックス"
+    ],
+    "note": "ゼンブイリングにはメガシンカ・Zワザ等のマークがあり歴代ギミックを統合する設計。レギュM-B時点で実戦解禁済みなのはメガシンカ。Zワザ以降の解禁状況はレギュレーション更新時に要確認"
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "_note": "Champions本編の実績一覧(手動整備ソース)。id は進捗データ(端末/クラウド)と紐づくため、一度公開したら変更しない。段階制: tiers は閾値昇順、title 省略=称号なし。per: pokemon=収録全ポケモンに展開(〇〇=ポケモン名), type=18タイプに展開(〇〇=タイプ名), battle_format=シングル/ダブルに展開(〇〇=形式名)。展開時の進捗キーは id:展開名 (例 fan:フシギバナ)。",
+  "achievements": [
+    {
+      "id": "rank-wins",
+      "category": "トレーナー実績",
+      "name": "百戦錬磨",
+      "desc": "ランクバトルのシングル、またはダブルバトルで勝利しよう",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 10,
+          "title": "スーパールーキー"
+        },
+        {
+          "target": 50,
+          "title": "ホープトレーナー"
+        },
+        {
+          "target": 100,
+          "title": "エリートトレーナー"
+        },
+        {
+          "target": 250,
+          "title": "ベテラントレーナー"
+        },
+        {
+          "target": 500,
+          "title": "アリーナマスター"
+        }
+      ]
+    },
+    {
+      "id": "type-wins",
+      "category": "トレーナー実績",
+      "name": "〇〇タイプを選出して勝利",
+      "desc": "〇〇タイプのポケモンをバトルに選出し勝利しよう！",
+      "type": "count",
+      "per": "type",
+      "tiers": [
+        {
+          "target": 10,
+          "title": "〇〇グループ"
+        },
+        {
+          "target": 50,
+          "title": "〇〇ジムリーダー"
+        },
+        {
+          "target": 100,
+          "title": "〇〇してんのう"
+        }
+      ]
+    },
+    {
+      "id": "type-moves",
+      "category": "トレーナー実績",
+      "name": "〇〇タイプ技の猛者",
+      "desc": "〇〇タイプの技を使おう！",
+      "type": "count",
+      "per": "type",
+      "tiers": [
+        {
+          "target": 50
+        },
+        {
+          "target": 250
+        },
+        {
+          "target": 500,
+          "title": "〇〇わざマニア"
+        }
+      ]
+    },
+    {
+      "id": "shutout",
+      "category": "トレーナー実績",
+      "name": "〇〇バトル完封",
+      "desc": "ランクバトル 〇〇バトルで1匹も倒されずに勝利しよう！",
+      "type": "count",
+      "per": "battle_format",
+      "tiers": [
+        {
+          "target": 10
+        },
+        {
+          "target": 50
+        },
+        {
+          "target": 100,
+          "title": "〇〇バトルマスター"
+        }
+      ]
+    },
+    {
+      "id": "champion-seasons",
+      "category": "トレーナー実績",
+      "name": "ポケモンチャンピオンズ",
+      "desc": "ランクバトルのチャンピオン級でシーズン終了を迎えよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 1,
+          "title": "ポケモンチャンピオンズ"
+        },
+        {
+          "target": 5
+        },
+        {
+          "target": 10
+        }
+      ]
+    },
+    {
+      "id": "tournament",
+      "category": "トレーナー実績",
+      "name": "大会のヌシ",
+      "desc": "大会に参加しよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 5,
+          "title": "たいかいルーキー"
+        },
+        {
+          "target": 10,
+          "title": "たいかいベテラン"
+        },
+        {
+          "target": 20,
+          "title": "たいかいのヌシ"
+        }
+      ]
+    },
+    {
+      "id": "shopping-vp",
+      "category": "トレーナー実績",
+      "name": "ショッピングマニア",
+      "desc": "ショップでVPを使おう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 10000
+        },
+        {
+          "target": 25000
+        },
+        {
+          "target": 50000
+        },
+        {
+          "target": 100000
+        },
+        {
+          "target": 250000,
+          "title": "おぼっちゃま・おじょうさま"
+        }
+      ]
+    },
+    {
+      "id": "badge-collector",
+      "category": "トレーナー実績",
+      "name": "バッジコレクター",
+      "desc": "バッジを集めよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 10
+        },
+        {
+          "target": 50
+        },
+        {
+          "target": 100,
+          "title": "バッジコレクター"
+        }
+      ]
+    },
+    {
+      "id": "title-king",
+      "category": "トレーナー実績",
+      "name": "称号王",
+      "desc": "称号を手に入れよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 30
+        },
+        {
+          "target": 150
+        },
+        {
+          "target": 300,
+          "title": "しょうごうコレクター"
+        }
+      ]
+    },
+    {
+      "id": "icon-collector",
+      "category": "トレーナー実績",
+      "name": "アイコンコレクター",
+      "desc": "アイコンを集めよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 10
+        },
+        {
+          "target": 50
+        },
+        {
+          "target": 100,
+          "title": "アイコンコレクター"
+        }
+      ]
+    },
+    {
+      "id": "tops-mania",
+      "category": "トレーナー実績",
+      "name": "トップスマニア",
+      "desc": "トップスを集めよう！ ※インナーを除きます",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 5
+        },
+        {
+          "target": 10
+        },
+        {
+          "target": 20,
+          "title": "アイドル"
+        }
+      ]
+    },
+    {
+      "id": "bottoms-mania",
+      "category": "トレーナー実績",
+      "name": "ボトムスマニア",
+      "desc": "ボトムスを集めよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 5
+        },
+        {
+          "target": 10
+        },
+        {
+          "target": 20,
+          "title": "モデル"
+        }
+      ]
+    },
+    {
+      "id": "super-effective-master",
+      "category": "トレーナー実績",
+      "name": "ばつぐんマスター",
+      "desc": "効果ばつぐんを出そう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 30
+        },
+        {
+          "target": 150
+        },
+        {
+          "target": 300,
+          "title": "せんせい"
+        }
+      ]
+    },
+    {
+      "id": "hyper-effective-master",
+      "category": "トレーナー実績",
+      "name": "ちょうばつぐんマスター",
+      "desc": "効果ちょうばつぐんを出そう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 10
+        },
+        {
+          "target": 50
+        },
+        {
+          "target": 100,
+          "title": "たつじん"
+        }
+      ]
+    },
+    {
+      "id": "critical-master",
+      "category": "トレーナー実績",
+      "name": "狙い撃ち",
+      "desc": "急所に当てよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 10
+        },
+        {
+          "target": 50
+        },
+        {
+          "target": 100,
+          "title": "ギャンブラー"
+        }
+      ]
+    },
+    {
+      "id": "mega-master",
+      "category": "トレーナー実績",
+      "name": "メガシンカマスター",
+      "desc": "メガシンカさせよう！",
+      "type": "count",
+      "tiers": [
+        {
+          "target": 30
+        },
+        {
+          "target": 150
+        },
+        {
+          "target": 300,
+          "title": "けいしょうしゃ"
+        }
+      ]
+    },
+    {
+      "id": "fan",
+      "category": "各ポケモン",
+      "name": "〇〇ファン",
+      "desc": "該当のポケモンを選出し勝利しよう！",
+      "type": "count",
+      "per": "pokemon",
+      "tiers": [
+        {
+          "target": 10,
+          "title": "〇〇ずき"
+        },
+        {
+          "target": 50,
+          "title": "〇〇つかい"
+        },
+        {
+          "target": 100,
+          "title": "〇〇はかせ"
+        }
+      ]
+    }
+  ]
+}

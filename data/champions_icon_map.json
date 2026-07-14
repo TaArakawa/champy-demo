@@ -1,0 +1,1177 @@
+{
+  "0003-000": {
+    "icon_id": "3",
+    "name_ja": "フシギバナ",
+    "form_name_ja": ""
+  },
+  "0006-000": {
+    "icon_id": "6",
+    "name_ja": "リザードン",
+    "form_name_ja": ""
+  },
+  "0009-000": {
+    "icon_id": "9",
+    "name_ja": "カメックス",
+    "form_name_ja": ""
+  },
+  "0015-000": {
+    "icon_id": "15",
+    "name_ja": "スピアー",
+    "form_name_ja": ""
+  },
+  "0018-000": {
+    "icon_id": "18",
+    "name_ja": "ピジョット",
+    "form_name_ja": ""
+  },
+  "0024-000": {
+    "icon_id": "24",
+    "name_ja": "アーボック",
+    "form_name_ja": ""
+  },
+  "0025-000": {
+    "icon_id": "25",
+    "name_ja": "ピカチュウ",
+    "form_name_ja": ""
+  },
+  "0026-000": {
+    "icon_id": "26",
+    "name_ja": "ライチュウ",
+    "form_name_ja": ""
+  },
+  "0026-001": {
+    "icon_id": "10100",
+    "name_ja": "ライチュウ",
+    "form_name_ja": "アローラのすがた"
+  },
+  "0036-000": {
+    "icon_id": "36",
+    "name_ja": "ピクシー",
+    "form_name_ja": ""
+  },
+  "0038-000": {
+    "icon_id": "38",
+    "name_ja": "キュウコン",
+    "form_name_ja": ""
+  },
+  "0038-001": {
+    "icon_id": "10104",
+    "name_ja": "キュウコン",
+    "form_name_ja": "アローラのすがた"
+  },
+  "0045-000": {
+    "icon_id": "45",
+    "name_ja": "ラフレシア",
+    "form_name_ja": ""
+  },
+  "0059-000": {
+    "icon_id": "59",
+    "name_ja": "ウインディ",
+    "form_name_ja": ""
+  },
+  "0059-001": {
+    "icon_id": "10230",
+    "name_ja": "ウインディ",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0065-000": {
+    "icon_id": "65",
+    "name_ja": "フーディン",
+    "form_name_ja": ""
+  },
+  "0068-000": {
+    "icon_id": "68",
+    "name_ja": "カイリキー",
+    "form_name_ja": ""
+  },
+  "0071-000": {
+    "icon_id": "71",
+    "name_ja": "ウツボット",
+    "form_name_ja": ""
+  },
+  "0080-000": {
+    "icon_id": "80",
+    "name_ja": "ヤドラン",
+    "form_name_ja": ""
+  },
+  "0080-002": {
+    "icon_id": "10165",
+    "name_ja": "ヤドラン",
+    "form_name_ja": "ガラルのすがた"
+  },
+  "0094-000": {
+    "icon_id": "94",
+    "name_ja": "ゲンガー",
+    "form_name_ja": ""
+  },
+  "0115-000": {
+    "icon_id": "115",
+    "name_ja": "ガルーラ",
+    "form_name_ja": ""
+  },
+  "0121-000": {
+    "icon_id": "121",
+    "name_ja": "スターミー",
+    "form_name_ja": ""
+  },
+  "0127-000": {
+    "icon_id": "127",
+    "name_ja": "カイロス",
+    "form_name_ja": ""
+  },
+  "0128-000": {
+    "icon_id": "128",
+    "name_ja": "ケンタロス",
+    "form_name_ja": ""
+  },
+  "0130-000": {
+    "icon_id": "130",
+    "name_ja": "ギャラドス",
+    "form_name_ja": ""
+  },
+  "0132-000": {
+    "icon_id": "132",
+    "name_ja": "メタモン",
+    "form_name_ja": ""
+  },
+  "0134-000": {
+    "icon_id": "134",
+    "name_ja": "シャワーズ",
+    "form_name_ja": ""
+  },
+  "0135-000": {
+    "icon_id": "135",
+    "name_ja": "サンダース",
+    "form_name_ja": ""
+  },
+  "0136-000": {
+    "icon_id": "136",
+    "name_ja": "ブースター",
+    "form_name_ja": ""
+  },
+  "0142-000": {
+    "icon_id": "142",
+    "name_ja": "プテラ",
+    "form_name_ja": ""
+  },
+  "0143-000": {
+    "icon_id": "143",
+    "name_ja": "カビゴン",
+    "form_name_ja": ""
+  },
+  "0149-000": {
+    "icon_id": "149",
+    "name_ja": "カイリュー",
+    "form_name_ja": ""
+  },
+  "0154-000": {
+    "icon_id": "154",
+    "name_ja": "メガニウム",
+    "form_name_ja": ""
+  },
+  "0157-000": {
+    "icon_id": "157",
+    "name_ja": "バクフーン",
+    "form_name_ja": ""
+  },
+  "0157-001": {
+    "icon_id": "10233",
+    "name_ja": "バクフーン",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0160-000": {
+    "icon_id": "160",
+    "name_ja": "オーダイル",
+    "form_name_ja": ""
+  },
+  "0168-000": {
+    "icon_id": "168",
+    "name_ja": "アリアドス",
+    "form_name_ja": ""
+  },
+  "0181-000": {
+    "icon_id": "181",
+    "name_ja": "デンリュウ",
+    "form_name_ja": ""
+  },
+  "0184-000": {
+    "icon_id": "184",
+    "name_ja": "マリルリ",
+    "form_name_ja": ""
+  },
+  "0186-000": {
+    "icon_id": "186",
+    "name_ja": "ニョロトノ",
+    "form_name_ja": ""
+  },
+  "0196-000": {
+    "icon_id": "196",
+    "name_ja": "エーフィ",
+    "form_name_ja": ""
+  },
+  "0197-000": {
+    "icon_id": "197",
+    "name_ja": "ブラッキー",
+    "form_name_ja": ""
+  },
+  "0199-000": {
+    "icon_id": "199",
+    "name_ja": "ヤドキング",
+    "form_name_ja": ""
+  },
+  "0199-001": {
+    "icon_id": "10172",
+    "name_ja": "ヤドキング",
+    "form_name_ja": "ガラルのすがた"
+  },
+  "0205-000": {
+    "icon_id": "205",
+    "name_ja": "フォレトス",
+    "form_name_ja": ""
+  },
+  "0208-000": {
+    "icon_id": "208",
+    "name_ja": "ハガネール",
+    "form_name_ja": ""
+  },
+  "0211-000": {
+    "icon_id": "211",
+    "name_ja": "ハリーセン",
+    "form_name_ja": ""
+  },
+  "0212-000": {
+    "icon_id": "212",
+    "name_ja": "ハッサム",
+    "form_name_ja": ""
+  },
+  "0214-000": {
+    "icon_id": "214",
+    "name_ja": "ヘラクロス",
+    "form_name_ja": ""
+  },
+  "0227-000": {
+    "icon_id": "227",
+    "name_ja": "エアームド",
+    "form_name_ja": ""
+  },
+  "0229-000": {
+    "icon_id": "229",
+    "name_ja": "ヘルガー",
+    "form_name_ja": ""
+  },
+  "0248-000": {
+    "icon_id": "248",
+    "name_ja": "バンギラス",
+    "form_name_ja": ""
+  },
+  "0254-000": {
+    "icon_id": "254",
+    "name_ja": "ジュカイン",
+    "form_name_ja": ""
+  },
+  "0257-000": {
+    "icon_id": "257",
+    "name_ja": "バシャーモ",
+    "form_name_ja": ""
+  },
+  "0260-000": {
+    "icon_id": "260",
+    "name_ja": "ラグラージ",
+    "form_name_ja": ""
+  },
+  "0279-000": {
+    "icon_id": "279",
+    "name_ja": "ペリッパー",
+    "form_name_ja": ""
+  },
+  "0282-000": {
+    "icon_id": "282",
+    "name_ja": "サーナイト",
+    "form_name_ja": ""
+  },
+  "0302-000": {
+    "icon_id": "302",
+    "name_ja": "ヤミラミ",
+    "form_name_ja": ""
+  },
+  "0303-000": {
+    "icon_id": "303",
+    "name_ja": "クチート",
+    "form_name_ja": ""
+  },
+  "0306-000": {
+    "icon_id": "306",
+    "name_ja": "ボスゴドラ",
+    "form_name_ja": ""
+  },
+  "0308-000": {
+    "icon_id": "308",
+    "name_ja": "チャーレム",
+    "form_name_ja": ""
+  },
+  "0310-000": {
+    "icon_id": "310",
+    "name_ja": "ライボルト",
+    "form_name_ja": ""
+  },
+  "0319-000": {
+    "icon_id": "319",
+    "name_ja": "サメハダー",
+    "form_name_ja": ""
+  },
+  "0323-000": {
+    "icon_id": "323",
+    "name_ja": "バクーダ",
+    "form_name_ja": ""
+  },
+  "0324-000": {
+    "icon_id": "324",
+    "name_ja": "コータス",
+    "form_name_ja": ""
+  },
+  "0334-000": {
+    "icon_id": "334",
+    "name_ja": "チルタリス",
+    "form_name_ja": ""
+  },
+  "0350-000": {
+    "icon_id": "350",
+    "name_ja": "ミロカロス",
+    "form_name_ja": ""
+  },
+  "0354-000": {
+    "icon_id": "354",
+    "name_ja": "ジュペッタ",
+    "form_name_ja": ""
+  },
+  "0358-000": {
+    "icon_id": "358",
+    "name_ja": "チリーン",
+    "form_name_ja": ""
+  },
+  "0359-000": {
+    "icon_id": "359",
+    "name_ja": "アブソル",
+    "form_name_ja": ""
+  },
+  "0362-000": {
+    "icon_id": "362",
+    "name_ja": "オニゴーリ",
+    "form_name_ja": ""
+  },
+  "0376-000": {
+    "icon_id": "376",
+    "name_ja": "メタグロス",
+    "form_name_ja": ""
+  },
+  "0389-000": {
+    "icon_id": "389",
+    "name_ja": "ドダイトス",
+    "form_name_ja": ""
+  },
+  "0392-000": {
+    "icon_id": "392",
+    "name_ja": "ゴウカザル",
+    "form_name_ja": ""
+  },
+  "0395-000": {
+    "icon_id": "395",
+    "name_ja": "エンペルト",
+    "form_name_ja": ""
+  },
+  "0398-000": {
+    "icon_id": "398",
+    "name_ja": "ムクホーク",
+    "form_name_ja": ""
+  },
+  "0405-000": {
+    "icon_id": "405",
+    "name_ja": "レントラー",
+    "form_name_ja": ""
+  },
+  "0407-000": {
+    "icon_id": "407",
+    "name_ja": "ロズレイド",
+    "form_name_ja": ""
+  },
+  "0409-000": {
+    "icon_id": "409",
+    "name_ja": "ラムパルド",
+    "form_name_ja": ""
+  },
+  "0411-000": {
+    "icon_id": "411",
+    "name_ja": "トリデプス",
+    "form_name_ja": ""
+  },
+  "0428-000": {
+    "icon_id": "428",
+    "name_ja": "ミミロップ",
+    "form_name_ja": ""
+  },
+  "0442-000": {
+    "icon_id": "442",
+    "name_ja": "ミカルゲ",
+    "form_name_ja": ""
+  },
+  "0445-000": {
+    "icon_id": "445",
+    "name_ja": "ガブリアス",
+    "form_name_ja": ""
+  },
+  "0448-000": {
+    "icon_id": "448",
+    "name_ja": "ルカリオ",
+    "form_name_ja": ""
+  },
+  "0450-000": {
+    "icon_id": "450",
+    "name_ja": "カバルドン",
+    "form_name_ja": ""
+  },
+  "0454-000": {
+    "icon_id": "454",
+    "name_ja": "ドクロッグ",
+    "form_name_ja": ""
+  },
+  "0460-000": {
+    "icon_id": "460",
+    "name_ja": "ユキノオー",
+    "form_name_ja": ""
+  },
+  "0461-000": {
+    "icon_id": "461",
+    "name_ja": "マニューラ",
+    "form_name_ja": ""
+  },
+  "0464-000": {
+    "icon_id": "464",
+    "name_ja": "ドサイドン",
+    "form_name_ja": ""
+  },
+  "0470-000": {
+    "icon_id": "470",
+    "name_ja": "リーフィア",
+    "form_name_ja": ""
+  },
+  "0471-000": {
+    "icon_id": "471",
+    "name_ja": "グレイシア",
+    "form_name_ja": ""
+  },
+  "0472-000": {
+    "icon_id": "472",
+    "name_ja": "グライオン",
+    "form_name_ja": ""
+  },
+  "0473-000": {
+    "icon_id": "473",
+    "name_ja": "マンムー",
+    "form_name_ja": ""
+  },
+  "0475-000": {
+    "icon_id": "475",
+    "name_ja": "エルレイド",
+    "form_name_ja": ""
+  },
+  "0478-000": {
+    "icon_id": "478",
+    "name_ja": "ユキメノコ",
+    "form_name_ja": ""
+  },
+  "0479-000": {
+    "icon_id": "479",
+    "name_ja": "ロトム",
+    "form_name_ja": "ロトムのすがた"
+  },
+  "0479-001": {
+    "icon_id": "10008",
+    "name_ja": "ロトム",
+    "form_name_ja": "ヒートロトム"
+  },
+  "0479-002": {
+    "icon_id": "10009",
+    "name_ja": "ロトム",
+    "form_name_ja": "ウォッシュロトム"
+  },
+  "0479-003": {
+    "icon_id": "10010",
+    "name_ja": "ロトム",
+    "form_name_ja": "フロストロトム"
+  },
+  "0479-004": {
+    "icon_id": "10011",
+    "name_ja": "ロトム",
+    "form_name_ja": "スピンロトム"
+  },
+  "0479-005": {
+    "icon_id": "10012",
+    "name_ja": "ロトム",
+    "form_name_ja": "カットロトム"
+  },
+  "0497-000": {
+    "icon_id": "497",
+    "name_ja": "ジャローダ",
+    "form_name_ja": ""
+  },
+  "0500-000": {
+    "icon_id": "500",
+    "name_ja": "エンブオー",
+    "form_name_ja": ""
+  },
+  "0503-000": {
+    "icon_id": "503",
+    "name_ja": "ダイケンキ",
+    "form_name_ja": ""
+  },
+  "0503-001": {
+    "icon_id": "10236",
+    "name_ja": "ダイケンキ",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0505-000": {
+    "icon_id": "505",
+    "name_ja": "ミルホッグ",
+    "form_name_ja": ""
+  },
+  "0510-000": {
+    "icon_id": "510",
+    "name_ja": "レパルダス",
+    "form_name_ja": ""
+  },
+  "0512-000": {
+    "icon_id": "512",
+    "name_ja": "ヤナッキー",
+    "form_name_ja": ""
+  },
+  "0514-000": {
+    "icon_id": "514",
+    "name_ja": "バオッキー",
+    "form_name_ja": ""
+  },
+  "0516-000": {
+    "icon_id": "516",
+    "name_ja": "ヒヤッキー",
+    "form_name_ja": ""
+  },
+  "0518-000": {
+    "icon_id": "518",
+    "name_ja": "ムシャーナ",
+    "form_name_ja": ""
+  },
+  "0530-000": {
+    "icon_id": "530",
+    "name_ja": "ドリュウズ",
+    "form_name_ja": ""
+  },
+  "0531-000": {
+    "icon_id": "531",
+    "name_ja": "タブンネ",
+    "form_name_ja": ""
+  },
+  "0534-000": {
+    "icon_id": "534",
+    "name_ja": "ローブシン",
+    "form_name_ja": ""
+  },
+  "0545-000": {
+    "icon_id": "545",
+    "name_ja": "ペンドラー",
+    "form_name_ja": ""
+  },
+  "0547-000": {
+    "icon_id": "547",
+    "name_ja": "エルフーン",
+    "form_name_ja": ""
+  },
+  "0553-000": {
+    "icon_id": "553",
+    "name_ja": "ワルビアル",
+    "form_name_ja": ""
+  },
+  "0560-000": {
+    "icon_id": "560",
+    "name_ja": "ズルズキン",
+    "form_name_ja": ""
+  },
+  "0563-000": {
+    "icon_id": "563",
+    "name_ja": "デスカーン",
+    "form_name_ja": ""
+  },
+  "0569-000": {
+    "icon_id": "569",
+    "name_ja": "ダストダス",
+    "form_name_ja": ""
+  },
+  "0571-000": {
+    "icon_id": "571",
+    "name_ja": "ゾロアーク",
+    "form_name_ja": ""
+  },
+  "0571-001": {
+    "icon_id": "10239",
+    "name_ja": "ゾロアーク",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0579-000": {
+    "icon_id": "579",
+    "name_ja": "ランクルス",
+    "form_name_ja": ""
+  },
+  "0584-000": {
+    "icon_id": "584",
+    "name_ja": "バイバニラ",
+    "form_name_ja": ""
+  },
+  "0587-000": {
+    "icon_id": "587",
+    "name_ja": "エモンガ",
+    "form_name_ja": ""
+  },
+  "0604-000": {
+    "icon_id": "604",
+    "name_ja": "シビルドン",
+    "form_name_ja": ""
+  },
+  "0609-000": {
+    "icon_id": "609",
+    "name_ja": "シャンデラ",
+    "form_name_ja": ""
+  },
+  "0614-000": {
+    "icon_id": "614",
+    "name_ja": "ツンベアー",
+    "form_name_ja": ""
+  },
+  "0618-000": {
+    "icon_id": "618",
+    "name_ja": "マッギョ",
+    "form_name_ja": ""
+  },
+  "0618-001": {
+    "icon_id": "10180",
+    "name_ja": "マッギョ",
+    "form_name_ja": "ガラルのすがた"
+  },
+  "0623-000": {
+    "icon_id": "623",
+    "name_ja": "ゴルーグ",
+    "form_name_ja": ""
+  },
+  "0635-000": {
+    "icon_id": "635",
+    "name_ja": "サザンドラ",
+    "form_name_ja": ""
+  },
+  "0637-000": {
+    "icon_id": "637",
+    "name_ja": "ウルガモス",
+    "form_name_ja": ""
+  },
+  "0652-000": {
+    "icon_id": "652",
+    "name_ja": "ブリガロン",
+    "form_name_ja": ""
+  },
+  "0655-000": {
+    "icon_id": "655",
+    "name_ja": "マフォクシー",
+    "form_name_ja": ""
+  },
+  "0660-000": {
+    "icon_id": "660",
+    "name_ja": "ホルード",
+    "form_name_ja": ""
+  },
+  "0663-000": {
+    "icon_id": "663",
+    "name_ja": "ファイアロー",
+    "form_name_ja": ""
+  },
+  "0675-000": {
+    "icon_id": "675",
+    "name_ja": "ゴロンダ",
+    "form_name_ja": ""
+  },
+  "0683-000": {
+    "icon_id": "683",
+    "name_ja": "フレフワン",
+    "form_name_ja": ""
+  },
+  "0685-000": {
+    "icon_id": "685",
+    "name_ja": "ペロリーム",
+    "form_name_ja": ""
+  },
+  "0687-000": {
+    "icon_id": "687",
+    "name_ja": "カラマネロ",
+    "form_name_ja": ""
+  },
+  "0689-000": {
+    "icon_id": "689",
+    "name_ja": "ガメノデス",
+    "form_name_ja": ""
+  },
+  "0691-000": {
+    "icon_id": "691",
+    "name_ja": "ドラミドロ",
+    "form_name_ja": ""
+  },
+  "0693-000": {
+    "icon_id": "693",
+    "name_ja": "ブロスター",
+    "form_name_ja": ""
+  },
+  "0695-000": {
+    "icon_id": "695",
+    "name_ja": "エレザード",
+    "form_name_ja": ""
+  },
+  "0697-000": {
+    "icon_id": "697",
+    "name_ja": "ガチゴラス",
+    "form_name_ja": ""
+  },
+  "0699-000": {
+    "icon_id": "699",
+    "name_ja": "アマルルガ",
+    "form_name_ja": ""
+  },
+  "0700-000": {
+    "icon_id": "700",
+    "name_ja": "ニンフィア",
+    "form_name_ja": ""
+  },
+  "0701-000": {
+    "icon_id": "701",
+    "name_ja": "ルチャブル",
+    "form_name_ja": ""
+  },
+  "0702-000": {
+    "icon_id": "702",
+    "name_ja": "デデンネ",
+    "form_name_ja": ""
+  },
+  "0706-000": {
+    "icon_id": "706",
+    "name_ja": "ヌメルゴン",
+    "form_name_ja": ""
+  },
+  "0706-001": {
+    "icon_id": "10242",
+    "name_ja": "ヌメルゴン",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0707-000": {
+    "icon_id": "707",
+    "name_ja": "クレッフィ",
+    "form_name_ja": ""
+  },
+  "0709-000": {
+    "icon_id": "709",
+    "name_ja": "オーロット",
+    "form_name_ja": ""
+  },
+  "0713-000": {
+    "icon_id": "713",
+    "name_ja": "クレベース",
+    "form_name_ja": ""
+  },
+  "0713-001": {
+    "icon_id": "10243",
+    "name_ja": "クレベース",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0715-000": {
+    "icon_id": "715",
+    "name_ja": "オンバーン",
+    "form_name_ja": ""
+  },
+  "0724-000": {
+    "icon_id": "724",
+    "name_ja": "ジュナイパー",
+    "form_name_ja": ""
+  },
+  "0724-001": {
+    "icon_id": "10244",
+    "name_ja": "ジュナイパー",
+    "form_name_ja": "ヒスイのすがた"
+  },
+  "0727-000": {
+    "icon_id": "727",
+    "name_ja": "ガオガエン",
+    "form_name_ja": ""
+  },
+  "0730-000": {
+    "icon_id": "730",
+    "name_ja": "アシレーヌ",
+    "form_name_ja": ""
+  },
+  "0733-000": {
+    "icon_id": "733",
+    "name_ja": "ドデカバシ",
+    "form_name_ja": ""
+  },
+  "0740-000": {
+    "icon_id": "740",
+    "name_ja": "ケケンカニ",
+    "form_name_ja": ""
+  },
+  "0745-000": {
+    "icon_id": "745",
+    "name_ja": "ルガルガン",
+    "form_name_ja": "まひるのすがた"
+  },
+  "0745-001": {
+    "icon_id": "10126",
+    "name_ja": "ルガルガン",
+    "form_name_ja": "まよなかのすがた"
+  },
+  "0745-002": {
+    "icon_id": "10152",
+    "name_ja": "ルガルガン",
+    "form_name_ja": "たそがれのすがた"
+  },
+  "0748-000": {
+    "icon_id": "748",
+    "name_ja": "ドヒドイデ",
+    "form_name_ja": ""
+  },
+  "0750-000": {
+    "icon_id": "750",
+    "name_ja": "バンバドロ",
+    "form_name_ja": ""
+  },
+  "0763-000": {
+    "icon_id": "763",
+    "name_ja": "アマージョ",
+    "form_name_ja": ""
+  },
+  "0765-000": {
+    "icon_id": "765",
+    "name_ja": "ヤレユータン",
+    "form_name_ja": ""
+  },
+  "0766-000": {
+    "icon_id": "766",
+    "name_ja": "ナゲツケサル",
+    "form_name_ja": ""
+  },
+  "0780-000": {
+    "icon_id": "780",
+    "name_ja": "ジジーロン",
+    "form_name_ja": ""
+  },
+  "0823-000": {
+    "icon_id": "823",
+    "name_ja": "アーマーガア",
+    "form_name_ja": ""
+  },
+  "0841-000": {
+    "icon_id": "841",
+    "name_ja": "アップリュー",
+    "form_name_ja": ""
+  },
+  "0842-000": {
+    "icon_id": "842",
+    "name_ja": "タルップル",
+    "form_name_ja": ""
+  },
+  "0844-000": {
+    "icon_id": "844",
+    "name_ja": "サダイジャ",
+    "form_name_ja": ""
+  },
+  "0858-000": {
+    "icon_id": "858",
+    "name_ja": "ブリムオン",
+    "form_name_ja": ""
+  },
+  "0861-000": {
+    "icon_id": "861",
+    "name_ja": "オーロンゲ",
+    "form_name_ja": ""
+  },
+  "0866-000": {
+    "icon_id": "866",
+    "name_ja": "バリコオル",
+    "form_name_ja": ""
+  },
+  "0867-000": {
+    "icon_id": "867",
+    "name_ja": "デスバーン",
+    "form_name_ja": ""
+  },
+  "0870-000": {
+    "icon_id": "870",
+    "name_ja": "タイレーツ",
+    "form_name_ja": ""
+  },
+  "0887-000": {
+    "icon_id": "887",
+    "name_ja": "ドラパルト",
+    "form_name_ja": ""
+  },
+  "0899-000": {
+    "icon_id": "899",
+    "name_ja": "アヤシシ",
+    "form_name_ja": ""
+  },
+  "0900-000": {
+    "icon_id": "900",
+    "name_ja": "バサギリ",
+    "form_name_ja": ""
+  },
+  "0902-000": {
+    "icon_id": "902",
+    "name_ja": "イダイトウ",
+    "form_name_ja": "オスのすがた"
+  },
+  "0902-001": {
+    "icon_id": "10248",
+    "name_ja": "イダイトウ",
+    "form_name_ja": "メスのすがた"
+  },
+  "0903-000": {
+    "icon_id": "903",
+    "name_ja": "オオニューラ",
+    "form_name_ja": ""
+  },
+  "0904-000": {
+    "icon_id": "904",
+    "name_ja": "ハリーマン",
+    "form_name_ja": ""
+  },
+  "0908-000": {
+    "icon_id": "908",
+    "name_ja": "マスカーニャ",
+    "form_name_ja": ""
+  },
+  "0911-000": {
+    "icon_id": "911",
+    "name_ja": "ラウドボーン",
+    "form_name_ja": ""
+  },
+  "0914-000": {
+    "icon_id": "914",
+    "name_ja": "ウェーニバル",
+    "form_name_ja": ""
+  },
+  "0934-000": {
+    "icon_id": "934",
+    "name_ja": "キョジオーン",
+    "form_name_ja": ""
+  },
+  "0936-000": {
+    "icon_id": "936",
+    "name_ja": "グレンアルマ",
+    "form_name_ja": ""
+  },
+  "0937-000": {
+    "icon_id": "937",
+    "name_ja": "ソウブレイズ",
+    "form_name_ja": ""
+  },
+  "0939-000": {
+    "icon_id": "939",
+    "name_ja": "ハラバリー",
+    "form_name_ja": ""
+  },
+  "0952-000": {
+    "icon_id": "952",
+    "name_ja": "スコヴィラン",
+    "form_name_ja": ""
+  },
+  "0956-000": {
+    "icon_id": "956",
+    "name_ja": "クエスパトラ",
+    "form_name_ja": ""
+  },
+  "0959-000": {
+    "icon_id": "959",
+    "name_ja": "デカヌチャン",
+    "form_name_ja": ""
+  },
+  "0968-000": {
+    "icon_id": "968",
+    "name_ja": "ミミズズ",
+    "form_name_ja": ""
+  },
+  "0970-000": {
+    "icon_id": "970",
+    "name_ja": "キラフロル",
+    "form_name_ja": ""
+  },
+  "0972-000": {
+    "icon_id": "972",
+    "name_ja": "ハカドッグ",
+    "form_name_ja": ""
+  },
+  "0979-000": {
+    "icon_id": "979",
+    "name_ja": "コノヨザル",
+    "form_name_ja": ""
+  },
+  "0981-000": {
+    "icon_id": "981",
+    "name_ja": "リキキリン",
+    "form_name_ja": ""
+  },
+  "0983-000": {
+    "icon_id": "983",
+    "name_ja": "ドドゲザン",
+    "form_name_ja": ""
+  },
+  "1000-000": {
+    "icon_id": "1000",
+    "name_ja": "サーフゴー",
+    "form_name_ja": ""
+  },
+  "1018-000": {
+    "icon_id": "1018",
+    "name_ja": "ブリジュラス",
+    "form_name_ja": ""
+  },
+  "1019-000": {
+    "icon_id": "1019",
+    "name_ja": "カミツオロチ",
+    "form_name_ja": ""
+  },
+  "0128-001": {
+    "icon_id": "10250",
+    "name_ja": "ケンタロス",
+    "form_name_ja": "パルデアのすがた"
+  },
+  "0128-002": {
+    "icon_id": "10251",
+    "name_ja": "ケンタロス",
+    "form_name_ja": "パルデアのすがた"
+  },
+  "0128-003": {
+    "icon_id": "10252",
+    "name_ja": "ケンタロス",
+    "form_name_ja": "パルデアのすがた"
+  },
+  "0658-000": {
+    "icon_id": "658",
+    "name_ja": "ゲッコウガ",
+    "form_name_ja": ""
+  },
+  "0666-018": {
+    "icon_id": "666",
+    "name_ja": "ビビヨン",
+    "form_name_ja": "はなぞののもよう"
+  },
+  "0670-005": {
+    "icon_id": "10061",
+    "name_ja": "フラエッテ",
+    "form_name_ja": "えいえんのはな"
+  },
+  "0678-000": {
+    "icon_id": "678",
+    "name_ja": "ニャオニクス",
+    "form_name_ja": "オスのすがた"
+  },
+  "0678-001": {
+    "icon_id": "10025",
+    "name_ja": "ニャオニクス",
+    "form_name_ja": "メスのすがた"
+  },
+  "0711-000": {
+    "icon_id": "711",
+    "name_ja": "パンプジン",
+    "form_name_ja": "ふつうのサイズ"
+  },
+  "0711-001": {
+    "icon_id": "10030",
+    "name_ja": "パンプジン",
+    "form_name_ja": "ちいさいサイズ"
+  },
+  "0711-002": {
+    "icon_id": "10031",
+    "name_ja": "パンプジン",
+    "form_name_ja": "おおきいサイズ"
+  },
+  "0711-003": {
+    "icon_id": "10032",
+    "name_ja": "パンプジン",
+    "form_name_ja": "とくだいサイズ"
+  },
+  "0752-000": {
+    "icon_id": "752",
+    "name_ja": "オニシズクモ",
+    "form_name_ja": ""
+  },
+  "0758-000": {
+    "icon_id": "758",
+    "name_ja": "エンニュート",
+    "form_name_ja": ""
+  },
+  "0784-000": {
+    "icon_id": "784",
+    "name_ja": "ジャラランガ",
+    "form_name_ja": ""
+  },
+  "0351-000": {
+    "icon_id": "351",
+    "name_ja": "ポワルン",
+    "form_name_ja": "ポワルンのすがた"
+  },
+  "0668-000": {
+    "icon_id": "668",
+    "name_ja": "カエンジシ",
+    "form_name_ja": "オスのすがた"
+  },
+  "0671-000": {
+    "icon_id": "671",
+    "name_ja": "フラージェス",
+    "form_name_ja": "あかいはな"
+  },
+  "0676-000": {
+    "icon_id": "676",
+    "name_ja": "トリミアン",
+    "form_name_ja": "やせいのすがた"
+  },
+  "0681-000": {
+    "icon_id": "681",
+    "name_ja": "ギルガルド",
+    "form_name_ja": "シールドフォルム"
+  },
+  "0778-000": {
+    "icon_id": "778",
+    "name_ja": "ミミッキュ",
+    "form_name_ja": "ばけたすがた"
+  },
+  "0855-000": {
+    "icon_id": "855",
+    "name_ja": "ポットデス",
+    "form_name_ja": "がんさくフォルム"
+  },
+  "0869-000": {
+    "icon_id": "869",
+    "name_ja": "マホイップ",
+    "form_name_ja": "ミルキィバニラ"
+  },
+  "0877-000": {
+    "icon_id": "877",
+    "name_ja": "モルペコ",
+    "form_name_ja": "まんぷくもよう"
+  },
+  "0925-000": {
+    "icon_id": "925",
+    "name_ja": "イッカネズミ",
+    "form_name_ja": "４ひきかぞく"
+  },
+  "0964-000": {
+    "icon_id": "964",
+    "name_ja": "イルカマン",
+    "form_name_ja": "ナイーブフォルム"
+  },
+  "1013-000": {
+    "icon_id": "1013",
+    "name_ja": "ヤバソチャ",
+    "form_name_ja": "ボンサクのすがた"
+  }
+}
